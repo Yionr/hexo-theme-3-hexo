@@ -1,8 +1,36 @@
-<p class="footer-entry"><% if (theme.miit && theme.miit.on) {%><span class="miit">
-                <img src="<%=theme.blog_path?theme.blog_path.lastIndexOf("/") === theme.blog_path.length-1?theme.blog_path.slice(0, theme.blog_path.length-1):theme.blog_path:'' %>/img/gov.png" title="中华人民共和国工业和信息化部">
-                <a href="<%= theme.miit.url || 'http://beian.miit.gov.cn/'%>"><%=theme.miit.info%></a>
-        </span>
-    <%}%>
-    <%if(theme.bottom_text){%><%=theme.bottom_text%><%} else {%>©2017 <%=config.author%><%}%>
+<p class="footer-entry">
+
+	<span class="miit">
+		<a href="/about">© 2020 Yionr</a>
+	</span>
+
+	<i></i>
+	
+	<span class="miit">
+		<a href="http://beian.miit.gov.cn">浙ICP备19047112号</a>
+	</span>
+	
+	<i></i>
+	
+	<span class="miit">
+		<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33102202000473"><img src="https://yionr.oss-cn-hangzhou.aliyuncs.com/images/20200909123301.png"/>浙公网安备 33102202000473号</a>
+	</span>
+
 </p>
-<p class="footer-entry">Built with <a href="https://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/yelog/hexo-theme-3-hexo" target="_blank">3-hexo</a> theme</p>
+
+
+<p class="footer-entry">
+
+	<a href="https://hexo.io/" target="_blank" rel="nofollow">
+	
+		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="102" height="20" role="img" aria-label="Built With: Hexo"><title>Built With: Hexo</title><linearGradient id="s" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="r"><rect width="102" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#r)"><rect width="63" height="20" fill="#555"/><rect x="63" width="39" height="20" fill="#9cf"/><rect width="102" height="20" fill="url(#s)"/></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110"><text aria-hidden="true" x="325" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="530">Built With</text><text x="325" y="140" transform="scale(.1)" fill="#fff" textLength="530">Built With</text><text aria-hidden="true" x="815" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="290">Hexo</text><text x="815" y="140" transform="scale(.1)" fill="#fff" textLength="290">Hexo</text></g></svg>
+	
+	</a>
+	
+	<a href="https://github.com/yelog/hexo-theme-3-hexo" target="_blank" rel="nofollow">
+	
+		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="96" height="20" role="img" aria-label="Theme: 3-hexo"><title>Theme: 3-hexo</title><linearGradient id="s" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="r"><rect width="96" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#r)"><rect width="47" height="20" fill="#555"/><rect x="47" width="49" height="20" fill="#e05d44"/><rect width="96" height="20" fill="url(#s)"/></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="110"><text aria-hidden="true" x="245" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="370">Theme</text><text x="245" y="140" transform="scale(.1)" fill="#fff" textLength="370">Theme</text><text aria-hidden="true" x="705" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="390">3-hexo</text><text x="705" y="140" transform="scale(.1)" fill="#fff" textLength="390">3-hexo</text></g></svg>
+	
+	</a>
+	
+</p>
